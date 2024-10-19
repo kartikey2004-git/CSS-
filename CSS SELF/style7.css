@@ -1,0 +1,89 @@
+/* .pseudo{ */
+/* height:25px; */
+/*  width: 150px; */
+/* background-color: forestgreen; */
+/* border: 2px solid black; */
+/* border-radius: 10px; */
+/*  */
+/* transition-property: all; */
+/* transition-duration: 1s; */
+/* transition-timing-function: ease-in-out; */
+/* transition-delay: 0s; */
+/* transition: all 1s ease-in-out 0s; */
+/* } */
+
+/* .pseudo:hover{
+    background-color: aqua;
+    height: 30px;
+    width: 160px;
+}
+.pseudo:active{
+    height: 30px;
+    width: 160px;
+    background-color: yellow;
+} */
+
+/* .box {
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: plum;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  transition: all 0.5s ease-in;
+} */
+
+/*by default rotation z axis mein ho rha hai */
+
+/* .box:hover { */
+/* transform: rotatez(360deg); */
+/* transform: scale(0.5); */
+/* transform: translate(50px,50px); */
+/* transform: skew(90deg); */
+/* } */
+
+.box {
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: plum;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+/* @keyframes ghumakkad {
+  from {
+    left: 10px;
+  }
+  to {
+    left: 200px;
+  }
+} */
+
+@keyframes ghumakkad {
+  0% {
+    left: 10px;
+  }
+  50% {
+    top: 200px;
+  }
+  60%{
+    top:400px;
+  }
+  100% {
+    left: 100px;
+  }
+}
+
+.box:hover {
+  animation-name: ghumakkad;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+}

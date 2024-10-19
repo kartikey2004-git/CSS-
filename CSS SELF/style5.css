@@ -1,0 +1,74 @@
+.container{
+    height: 100vh;
+    width: 80vw;
+    border: 2px solid black;
+    display: grid;
+    /* grid-template-columns: [pehla]100px[doosra] 100px[t];
+    grid-template-rows: 100px 100px 100px; */
+    grid-template-columns: 1fr 2fr 1fr;
+   row-gap: 34px;
+   column-gap: 34px;
+   justify-items: center;
+   align-items: center;
+   /* grid-template-columns: repeat(4,minmax(100px,1fr)); */
+   grid-template-columns: repeat(4,80px);
+   grid-template-rows: repeat(2,80px);
+   /* justify-content: center;
+   align-content: center; */
+   /*alternative*/
+   place-content: center;
+}
+.item{
+    border: 2px solid red;
+    height: 55px;
+    width: 55px;
+} 
+
+ /* .item-4{  */
+ /* grid-row: 1/2;  */
+ /* grid-row-start: 1; 
+ grid-row-end: 2;  */
+ /* grid-column: pehla/t;  */
+/* }  */
+
+ /* .item-1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+} */
+
+/*---------------------------------------------------------*/
+
+/* .container {
+  border: 2px solid black;
+  display: grid;
+  grid-template-areas: "nav nav nav"
+                       "side article pookie"  
+                       " footer footer footer"         ;
+}
+
+.item{
+    border: 2px solid red;
+    height: 55px;
+    width: 55px;
+} 
+
+.item-1{
+   grid-area: nav;
+   background-color: aqua;
+}
+.item-2{
+    grid-area: side;
+    background-color: blue;
+}
+.item-3{
+    grid-area: article ;
+    background-color: orange;
+}
+.item-5{
+    grid-area: pookie;
+    background-color: yellow;
+}
+.item-4{
+    grid-area: footer;
+    background-color: red;
+} */

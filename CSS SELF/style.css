@@ -1,0 +1,109 @@
+/* h1 {
+    color: red;
+}
+
+p {
+    color: blueviolet;
+} */
+
+/* *{
+   color: yellowgreen;
+    } */
+
+/* #first_heading{
+    color: green;
+}
+.random_text{
+    color:red;
+} */
+
+/*basically matlab hai yeh hai ki jo descendant(jo matlab us element with ye specific id mein present hai unhi ka bss styling change ho(nested wala concept)*/
+/* #first p{ 
+    color:blue;
+} */
+/* 
+*{
+    margin : 0;
+    padding: 0;
+}
+
+.back_learn{
+    color:blue;
+    background-color: aqua;
+} */
+
+/* .goli{
+    color: rgba(208, 63, 67, 0.7);
+    background-color: aqua;
+} */
+/* .tapu{
+    background-color: #9cb90d;
+    color:black;
+} */
+
+/* #box2{
+margin: 10px;
+height: 800px;
+width: 600px;
+ background-color: red;
+background-image: url(img-1.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed; 
+} */
+
+ /* #box1{
+    background-image: url(img-1.jpg) ;
+    background-size: contain;
+    height: 250px;
+    width:  180px;
+}  */
+
+/* 
+.box{
+    height: 50px;
+    width:50px;
+}
+#box1{
+    background-color: aqua;
+    visibility: hidden;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: yellow;
+} */
+
+/* 
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-style: dashed;
+    text-decoration-color: aqua;
+    text-transform: capitalize;
+}
+#Link{
+    text-decoration: none;
+}
+
+#first{
+    line-height: 15px;
+}
+#second{
+    line-height: 30px;
+} */
+
+/* .second{
+    font-size: 12px ;
+    font-weight: 600;
+    font-style: italic;
+} */
+
+/* #first{
+    font-family: "Playwrite DE Grund", system-ui;
+} */

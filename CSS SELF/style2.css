@@ -1,0 +1,35 @@
+/* #padded{
+    background-color: slateblue;
+    height: 50px;
+    width: 50px;
+    padding: 5px 10px 15px 19px;
+    padding: 2px;
+    margin: 5px 5px 5px 5px;
+    margin: 5px;
+} */
+/* 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pad{
+    height: 50px;
+    width:50px;
+    padding: 2px;
+    margin: 5px ;
+}
+#first{
+    background-color: slateblue;
+    border:2px solid orange;
+    border-radius: 3px 3px 4px 4px;
+    box-sizing: border-box;
+}
+
+#second{
+    background-color: blue;
+    border: 2px dashed red;
+} */
+
+

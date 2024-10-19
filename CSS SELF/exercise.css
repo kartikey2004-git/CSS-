@@ -1,0 +1,176 @@
+/* #bakchod{
+    height:100px;
+    width:100px;
+    background-color: yellow;
+}
+button{
+    padding: 10px 15px 10px 15px;
+    margin: 100px;
+    border: 2px dotted red;
+    border-radius: 50%; 
+}
+
+#first{
+    height: 100px;
+    width: 100px;  
+    background-color: aqua;
+    margin: 4px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+#second{
+    height: 100px;
+    width: 100px; 
+    background-color: orangered;
+    margin:4px;
+    padding: 8px;
+    box-sizing: content-box;
+} */
+
+/*for circle = 50% pr set kro toh circle bn skta hai*/
+/* 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 55px;
+    padding: 5px;
+}
+nav{
+    padding:5px;
+}
+header{
+    background-color: aqua;
+    height:30px;
+}
+
+#second{
+    background-color: green;
+    height: 80px;
+    width:80px;
+    border-radius: 50%;
+    position: relative;
+    top:4px;
+    left:100px;
+}
+
+#box1,#box2,#box3{
+    height: 100px;
+    width:100px;
+    background-color: blue;
+    margin: 5px;
+    display: inline-block;
+}
+#container{
+    border: 3px solid black;
+}
+
+footer{
+    position: fixed;
+    bottom:0px;
+    background-color: yellow;
+} */
+
+
+/*----------------------------------------------------------*/
+/* *{
+    margin:0;
+    padding:0;
+}
+nav a{
+    text-decoration: none;
+}
+header{
+    background-color: aqua;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    padding-top: 10px;
+}
+img{
+    height:100px;
+}
+#image_container{
+    border:2px solid black;
+    height: 150px;
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box{
+    height: 75px;
+    width:75px;
+    border: 2px solid red;
+    flex-shrink: 0;
+}
+
+#box_container{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    width: 350px;
+}
+
+#box2{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#media_box{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+@media screen and (min-width:400px){
+    #media_box{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:400px){
+    #media_box{
+        background-color: red;
+    }
+}
+
+
+     */
+
+
+
+/*----------------------------------------------------------*/
+
+.progress-container{
+    height: 25px;
+    background-color: gainsboro;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left:4%;
+}
+.progress-bar{
+    background-color: mediumorchid;
+    height: 100%;
+    border-radius: 20px;
+    animation: animate_progress 3s  ;
+}
+
+@keyframes animate_progress {
+    0% {width:0%;}
+    90%{width:95%}
+    95%{width:70%}
+    100%   {width:100%;}
+}
